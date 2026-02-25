@@ -1,0 +1,6 @@
+2026-02-24 23:41:45,170 - FileSystemWatcher - INFO - Monitoring Inbox: E:\hackhaton0_personal_ai_employe\AI_Employee_Vault\Inbox
+2026-02-24 23:41:45,171 - FileSystemWatcher - INFO - Starting FileSystemWatcher
+2026-02-24 23:42:16,466 - FileSystemWatcher - INFO - Monitoring Inbox: E:\hackhaton0_personal_ai_employe\AI_Employee_Vault\Inbox
+2026-02-24 23:42:16,467 - FileSystemWatcher - INFO - Starting FileSystemWatcher
+2026-02-24 23:42:16,470 - FileSystemWatcher - INFO - New file detected: test.txt
+2026-02-24 23:42:16,473 - FileSystemWatcher - INFO - Created action file: E:\hackhaton0_personal_ai_employe\AI_Employee_Vault\Needs_Action\FILE_20260224_234216_test.txt.md
