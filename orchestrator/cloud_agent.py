@@ -430,11 +430,12 @@ status: pending_approval
 
 def main():
     """Main entry point"""
-    import psutil
-except ImportError:
-    print("Installing psutil...")
-    subprocess.run([sys.executable, '-m', 'pip', 'install', 'psutil'])
-    import psutil
+    try:
+        import psutil
+    except ImportError:
+        print("Installing psutil...")
+        subprocess.run([sys.executable, '-m', 'pip', 'install', 'psutil'])
+        import psutil
 
     agent = CloudAgent()
     agent.run()

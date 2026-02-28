@@ -1,0 +1,132 @@
+# ==========================================
+# SECURITY - NEVER COMMIT THESE
+# ==========================================
+
+# Environment variables with API keys
+.env
+.env.local
+.env.production
+.env.*.local
+# But allow .env.example for reference
+!.env.example
+
+# WhatsApp Sessions (contains auth tokens)
+.whatsapp_session/
+*.session
+*.session-journal
+
+# API Keys and Secrets
+*credentials*
+*secrets*
+*api_key*
+*tokens*
+*private*
+
+# Banking/Payment Credentials
+banking/
+payments/
+stripe_*
+paypal_*
+
+# SSH Keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# OAuth Tokens
+oauth_token.json
+refresh_token.txt
+gmail_credentials.txt
+
+# ==========================================
+# LOCAL CONFIGURATION
+# ==========================================
+
+# Local settings
+local_config.json
+user_settings.json
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Playwright
+playwright-report/
+test-results/
+
+# ==========================================
+# LOGS (keep local)
+# ==========================================
+
+*.log
+logs/
+Logs/*.log
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+~$*
+
+# ==========================================
+# AI EMPLOYEE SPECIFIC
+# ==========================================
+
+# BUT DO sync vault content
+!AI_Employee_Vault/
+!AI_Employee_Vault/**/*.md
+!AI_Employee_Vault/**/*.json
+
+# Don't sync sensitive vault data
+AI_Employee_Vault/*credentials*
+AI_Employee_Vault/*secrets*
+AI_Employee_Vault/.private/
+
+# Session states
+.ralph_state/
+.session_state/
+
+# Draft approvals (may contain sensitive data)
+AI_Employee_Vault/Approved/*.md
+AI_Employee_Vault/Drafts/*credentials*.md
+
+# ==========================================
+# OS SPECIFIC
+# ==========================================
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride

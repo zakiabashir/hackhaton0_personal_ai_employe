@@ -1,0 +1,18 @@
+{
+  "linkedin": {
+    "profile_url": "https://linkedin.com/in/your-profile",
+    "company_page": "https://linkedin.com/company/your-company"
+  },
+  "twitter": {
+    "handle": "@yourhandle",
+    "profile_url": "https://twitter.com/yourhandle"
+  },
+  "facebook": {
+    "profile_url": "https://facebook.com/your.profile",
+    "page_url": "https://facebook.com/your-page"
+  },
+  "instagram": {
+    "handle": "@yourhandle",
+    "profile_url": "https://instagram.com/yourhandle"
+  }
+}
